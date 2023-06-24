@@ -1,0 +1,5 @@
+@include('head')
+@include('sweetalert::alert')
+@include('header')
+@yield('content')
+@include('footer')
